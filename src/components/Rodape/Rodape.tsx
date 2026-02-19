@@ -1,7 +1,7 @@
-import React from 'react';
+import { type JSX } from 'react';
 import './Rodape.css'; // Importando CSS para estilos
 
-const Rodape: React.FC = () => {
+function Rodape(): JSX.Element {
   return (
     <footer className="rodape">
       <div className="rodape-container">

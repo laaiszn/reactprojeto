@@ -1,7 +1,7 @@
-import React from 'react';
+import { type JSX } from 'react';
 import './Navegacao.css'; // Importando CSS para estilos
 
-const Navegacao: React.FC = () => {
+function Navegacao(): JSX.Element {
   return (
     <nav className="navegacao">
       <div className="nav-container">

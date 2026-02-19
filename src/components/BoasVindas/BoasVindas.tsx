@@ -1,7 +1,7 @@
-import React from 'react';
+import { type JSX } from 'react';
 import './BoasVindas.css'; // Importando CSS para estilos
 
-const BoasVindas: React.FC = () => {
+function BoasVindas(): JSX.Element {
   return (
     <section className="boas-vindas">
       <div className="boas-vindas-container">

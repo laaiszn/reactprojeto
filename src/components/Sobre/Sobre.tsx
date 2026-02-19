@@ -1,7 +1,7 @@
-import React from 'react';
+import { type JSX } from 'react';
 import './Sobre.css'; // Importando CSS para estilos
 
-const Sobre: React.FC = () => {
+function Sobre(): JSX.Element {
   return (
     <section className="sobre">
       <div className="sobre-container">
