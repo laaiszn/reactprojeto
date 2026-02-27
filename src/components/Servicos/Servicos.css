@@ -1,0 +1,34 @@
+.servicos {
+  padding: 4rem 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.servicos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.servicos-titulo {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.servicos-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servico-card {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.servico-card:hover {
+  transform: translateY(-5px);
+}

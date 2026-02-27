@@ -1,18 +1,30 @@
-import Navegacao from "../../components/Navegacao/Navegacao"
+import { type JSX } from "react";
+import "./PServico.css";
+function Servicos(): JSX.Element {
+  return (
+    <section className="servicos" id="servicos">
+      <div className="servicos-container">
+        <h2 className="servicos-titulo">Nossos Serviços</h2>
 
-import BoasVindas from "../../components/BoasVindas/BoasVindas"
+        <div className="servicos-grid">
+          <div className="servico-card">
+            <h3>Desenvolvimento Web</h3>
+            <p>Criação de sites modernos e responsivos.</p>
+          </div>
 
-import Rodape from "../../components/Rodape/Rodape"
+          <div className="servico-card">
+            <h3>Aplicações React</h3>
+            <p>Interfaces dinâmicas com React e TypeScript.</p>
+          </div>
 
-
-function PHome() {
-    return (
-        <>
-        <Navegacao />
-        <BoasVindas />
-        <Rodape />
-        </>
-    )
+          <div className="servico-card">
+            <h3>Consultoria</h3>
+            <p>Melhorias de performance e arquitetura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default PHome
+export default Servicos;

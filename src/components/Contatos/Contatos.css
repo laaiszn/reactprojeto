@@ -1,0 +1,48 @@
+.contatos {
+  padding: 4rem 1rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contatos-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contatos-titulo {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.contatos-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contatos-input,
+.contatos-textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contatos-textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contatos-botao {
+  padding: 0.8rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contatos-botao:hover {
+  background-color: #444;
+}
